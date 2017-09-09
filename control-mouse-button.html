@@ -101,11 +101,11 @@ width:100%;
 	<div id="columnshell">
 		<div id="leftcolumn">
 			<div>
-				<p>mouse34Btn lets you use your side mouse buttons to Copy (Cmd+C) and Paste (Cmd+V) in all Mac applications that support these commands. It’s very lightweight and is meant to replace Logitech Control Center (<a href="http://support.logitech.com/en_us/software/logitech-control-center-for-macintosh-os-x">LCC</a>), A4tech 8-in-One (Windows) software or <a href="https://www.boastr.net/">BetterTouchTool</a> which otherwise are good apps, but are too complex and heavy. If you just want to Copy and Paste with your 5-button mouse, then mouse34Btn is for you.<br><br>
-				Application should work with any 5-button mouse (i.e. Logitech, Canyon, A4tech, etc.). Almost all third party mice (USB, Bluetooth) work on Mac without additional drivers, but their side buttons do nothing (or execute some predefined commands) without additional mapping software. When you install and run mouse34Btn app it will map the copy command to the bottom side button (paste to the top side button). This mapping is tested with a Logitech 5-button mouse for example. However, some mice like Canyon reverse the side buttons, so I created a second app called mouse43Btn which reverses mapping commands. So, you may first try mouse34Btn app and if it’s uncomfortable for you, then use mouse43Btn.</p>
+				<p>mouse34Btn lets you use your side mouse buttons to Copy (Cmd+C) and Paste (Cmd+V) in all Mac applications that support these commands. The latest version adds two new features: scroll mode activated by the middle button and close tab (Cmd+W) by double clicking of the middle button. Application is very lightweight and is meant to replace Logitech Control Center (LCC), A4tech 8-in-One (Windows) or BetterTouchTool which otherwise are good apps, but are too complex and use too much resources. If you just want to Copy and Paste with your 5-button mouse (i.e. Logitech, Canyon, A4tech, etc.) or scroll with your trackball mouse, then mouse34Btn is for you.<br><br>
+				Almost all third party mice (USB, Bluetooth) work on Mac without additional drivers, but their side buttons do nothing (or execute some predefined commands) without additional mapping software. When you install and run mouse34Btn app it will map the copy command to the bottom side button (paste to the top side button). This mapping is tested with a Logitech 5-button mouse for example. However, some mice like Canyon reverse the side buttons, so I created a second app called mouse43Btn which reverses mapping commands. So, you may first try mouse34Btn app and if it’s uncomfortable for you, then use mouse43Btn.</p>
 				<br><p>Pros:</p>
 				<ul>
-				<li>mouse34Btn is a very lightweight application. It doesn’t install drivers, kernel extensions (that may crash your system), open network ports, connect the Internet or write any files on your HDD. 
+				<li>mouse34Btn is a very lightweight application (idle: 0.0% CPU, scroll mode: up to 1% CPU, 2-3 MB RAM). It doesn’t install drivers, kernel extensions (that may crash your system), open network ports, connect to the Internet (even for update) or read/write files on your HDD. 
 				<li>All apps that intercept your keyboard (i.e. LCC, BetterTouchTool) must be approved as assistive devices in system preferences. mouse34Btn as a mouse only app doesn’t require this.
 				<li>mouse34Btn is an open-source project, so you can examine or modify the code. Applications that intercept or log keyboard and mouse events raise security concerns and it’s good to examine their work.</li>
 				</ul>
@@ -116,8 +116,8 @@ width:100%;
 				<br>
 				<p><b>Download</b></p>
 				<ul>
-				<li><a href="https://github.com/fiery-/mouse34Btn/releases/download/0.9.5/mouse34Btn.dmg">mouse34Btn</a> v0.9.5</li>
-				<li>MD5 checksum: 753775bed112680f95ec9ec639132254</li>
+				<li><a href="https://github.com/fiery-/mouse34Btn/releases/download/v0.9.6/mouse34Btn.dmg">mouse34Btn</a> v0.9.6</li>
+				<li>MD5 checksum: bd90f2ee7eec0325839d9e64a63b6a20</li>
 				<br>
 				<li><a href="https://github.com/fiery-/mouse34Btn/releases/download/0.9.5/mouse43Btn.dmg">mouse43Btn</a> v0.9.5 (reverse side buttons)</li>
 				<li>MD5 checksum: 6051d9b5c3c2caf5310dc8b521497018</li>
@@ -128,7 +128,10 @@ width:100%;
 				<p>1. Download the dmg file and install the app to your Applications folder.<br>
 2. Start mouse34Btn from your Applications folder. App works in background, so you can see it working through Activity Monitor app.<br>
 3. Open System Preferences > Users &amp; Groups > Login Items tab. Click on the "+" button and navigate to mouse34Btn app in your Applications folder. (This will run automatically the app when you login.)<br>
-4. Now when use your side mouse buttons, the Copy (Cmd+C) and Paste (Cmd+V) commands should be executed.<br><br>
+4. Now when use your side mouse buttons, the Copy (Cmd+C) and Paste (Cmd+V) commands should be executed.<br>
+- Scroll mode is activated by the middle button. Useful for trackball mouses without mouse wheel.<br>
+- When in scroll mode, the right click deactivates the scrolling for 4 sec., so you can select a contextual menu command, then it automatically reverts to scroll mode. Middle click on a contextual menu immediately reverts to scroll mode.<br>
+- Double click of the middle button closes the active tab/window (Cmd+W).<br><br>
 To remove this app, Open System Preferences > Users &amp; Groups > Login Items tab. Click on the "-" button to remove mouse34Btn app from the Login Items. Then Log Out and Login your system.</p>
 				<br>
 				<p><b>System Requirements</b></p>
@@ -137,6 +140,7 @@ To remove this app, Open System Preferences > Users &amp; Groups > Login Items t
 				</ul>
 				<p><b>Release Notes</b></p>
 				<ul>
+				<li>09/08/2017 - v0.9.6 - adds scroll mode and close tab (Cmd+W) features</li>
 				<li>03/12/2017 - v0.9.5 - Initial release</li>
 				</ul>
 				<p><b>License</b></p>
