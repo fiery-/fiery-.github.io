@@ -37,19 +37,18 @@ table {
 	font-size: 12px;
 	table-layout: auto;
 }
-.embed-container {
-position: relative;
-height: 0;
-overflow: hidden;
-background-color:#FFFFFF;
-padding-bottom:65.26%;
+
+img {
+     max-width: 100%;
+     height: auto;
+     width: auto\9; /* ie8 */
+     vertical-align: top;
 }
 
-.embed-container img {
-position: absolute;
-top: 0;
-left: 0;
-width:100%;
+.img1,.img2{
+    width:50%;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .menu_ul {
@@ -103,6 +102,10 @@ width:100%;
 			<div>
 				<p>mouse34Btn lets you use your side mouse buttons to Copy (Cmd+C) and Paste (Cmd+V) in all Mac applications that support these commands. The latest version adds two new features: scroll mode activated by the middle button and close tab (Cmd+W) by double clicking of the middle button. Application is very lightweight and is meant to replace Logitech Control Center (LCC), A4tech 8-in-One (Windows) or BetterTouchTool which otherwise are good apps, but are too complex and use too much resources. If you just want to Copy and Paste with your 5-button mouse (i.e. Logitech, Canyon, A4tech, etc.) or scroll with your trackball mouse, then mouse34Btn is for you.<br><br>
 				Almost all third party mice (USB, Bluetooth) work on Mac without additional drivers, but their side buttons do nothing (or execute some predefined commands) without additional mapping software. When you install and run mouse34Btn app it will map the copy command to the bottom side button (paste to the top side button). This mapping is tested with a Logitech 5-button mouse for example. However, some mice like Canyon reverse the side buttons, so I created a second app called mouse43Btn which reverses mapping commands. So, you may first try mouse34Btn app and if it’s uncomfortable for you, then use mouse43Btn.</p>
+				<div style="max-width: 800px; inline-block; white-space: nowrap;">
+				<div class="img1" style="height: auto;"><img src="images/mouse34Btn_1.jpg" border="0" alt=""></div>
+				<div class="img2" style="height: auto;"><img src="images/mouse34Btn_2.jpg" border="0" alt=""></div>
+				</div>
 				<br><p>Pros:</p>
 				<ul>
 				<li>mouse34Btn is a very lightweight application (idle: 0.0% CPU, scroll mode: up to 1% CPU, 2-3 MB RAM). It doesn’t install drivers, kernel extensions (that may crash your system), open network ports, connect to the Internet (even for update) or read/write files on your HDD. 
