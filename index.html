@@ -101,7 +101,7 @@ width:100%;
 	<div id="columnshell">
 		<div id="leftcolumn">
 			<div>
-				<p>iPrintPage is an <b>HTML to plain text converter</b> that supports printing in <b>text mode</b>. It's especially useful for printing on continuous paper of Impact Printers (ideal for printing receipts, invoices, reports and spread sheets in many copies simultaneously). Conversion of HTML to plain text, preserves the formatting as much as possible (it achieves this by using the third party w3m text browser). Application allows easy printing from Safari or Firefox browsers. Currently any OS X app (i.e. Safari, Firefox, etc.) supports printing in graphics mode only. iPrintPage can print both in text and graphics mode.</p>
+				<p>iPrintPage is an <b>HTML to plain text converter</b> that supports printing in <b>text mode</b>. It's especially useful for printing on continuous paper of Impact Printers (ideal for printing receipts, invoices, reports and spread sheets in many copies simultaneously). Conversion of HTML to plain text, preserves the formatting as much as possible (it achieves this by using the third party w3m text browser). Application allows easy printing from Safari, Firefox and Chrome browsers. Currently any OS X app (i.e. browsers, etc.) supports printing in graphics mode only. iPrintPage can print both in text and graphics mode.</p>
 				<br><p>Advantages of text over graphics mode printing on Dot Matrix Printers:</p>
 				<ul>
 				<li><b>Faster</b> printing. Text mode printing unleashes your printer's potential (i.e. Epson FX 890 has the following print speed options (at 10 <abbr title="characters per inch">cpi</abbr>): NLQ (104 <abbr title="characters per second">cps</abbr>), Draft (419 <abbr title="characters per second">cps</abbr>), High Speed Draft (559 <abbr title="characters per second">cps</abbr>), Ultra Speed Draft (566 <abbr title="characters per second">cps</abbr>)).</li>
@@ -114,7 +114,7 @@ width:100%;
 				<ul>
 				<li>The whole text is printed with a built-in printer's font. This means that the original font properties are not preserved.</li>
 				<li>HTML to text conversion excludes images. If you want to preserve images or exact formatting, print in Graphics mode.</li>
-				<li>HTML to text conversion has a limited CSS support.</li>
+				<li>HTML to text conversion has a limited CSS support, but main HTML tags and aligment properties are supported i.e. (DIV, P, TABLE, TR, TD, etc.)</li>
 				</ul>
 				<br>
 				<div style="max-width: 760px;"><div class="embed-container"><img src="images/iPrintPage.png" border="0" alt=""></div></div>
@@ -122,7 +122,8 @@ width:100%;
 				<ul>
 				<li><a href="https://github.com/fieryo/fieryo.github.io/raw/master/iPrintPage1.3.dmg">iPrintPage v1.3</a>
 					<br>MD5 checksum: 08ECB13F7D1D40113BB708F6964641D4
-					<br>SHA1 checksum: D065DCE7F0B32866B982643E5A9133A199EFB1A7</li>
+					<br>SHA1 checksum: D065DCE7F0B32866B982643E5A9133A199EFB1A7
+					<br></li>
 				<li><a href="http://mac.softpedia.com/get/Utilities/iPrintPage.shtml"><img src="images/sp100clean.png" border="0" align="absmiddle"></a></li>
 				</ul>
 				<p><b>System Requirements</b></p>
@@ -133,7 +134,7 @@ width:100%;
 				</ul>
 				<p><b>VirusTotal report for iPrintPage v1.3</b></p>
 				<ul>
-				<li><a href="https://www.virustotal.com/gui/file/08ecb13f7d1d40113bb708f6964641d4/detection">See VirusTotal report</a>
+				<li><a href="https://www.virustotal.com/gui/file/08ecb13f7d1d40113bb708f6964641d4/detection">VirusTotal report:</a>
 					<br>- No engines detected this file
                                         <br>- Signed file, valid signature
 					</li>
@@ -141,11 +142,12 @@ width:100%;
 				<p><b>Release Notes</b></p>
 				<ul>
 				<li>15/09/2020 - v1.3:
-					<br>- Added add-ons for Chrome and Firefox that opens current web page with iPrintPage app. The <a href="https://chrome.google.com/webstore/detail/iprintpage-extension/gcgjkboeenpgohojgagdplcgdaemdibf">extension for Chrome</a> will be installed automatically. You need to enable it in Chrome when prompted. The Firefox add-on must be installed manually from <a href="https://addons.mozilla.org/en-US/firefox/addon/iprintpage-extension/">addons.mozilla.org</a> or drag and drop xpi extension from iPrintPage Resources folder to about:addons Firefox page.
+					<br>- Added add-ons for Chrome and Firefox that opens current web page with iPrintPage app. The <a href="https://chrome.google.com/webstore/detail/iprintpage-extension/gcgjkboeenpgohojgagdplcgdaemdibf">extension for Chrome</a> will be installed automatically when you start iPrintPage. You need to enable it in Chrome when prompted. The Firefox add-on must be installed manually from <a href="https://addons.mozilla.org/en-US/firefox/addon/iprintpage-extension/">addons.mozilla.org</a> or drag and drop xpi extension from iPrintPage Resources folder to about:addons Firefox page.
 					<br>- iPrintPage main window title now shows web page title, when app is used with Safari.
 					<br>- Fixed Print Cmd+P command on the main menu to invoke the Print command available on the Toolbar.
 					<br>- iPrintPage is 64 bit app and requires 10.9 or later. 
-					<br>- Application is signed with a valid certificate, but not notarized (see note above).</li>
+					<br>- Application is signed with a valid certificate, but not notarized (see note above).
+					<br></li>
 				<li>11/16/2016 - v1.2 - Signed application and dmg installation file. Requires 10.5 or later.</li>
 				<li>08/09/2015 - v1.1 - Fixed a bug when "Open With -> iPrintPage" command is used in the Finder.</li>
 				<li>07/12/2015 - v1.0 - Initial release</li>
@@ -159,16 +161,18 @@ width:100%;
 				<li><a href="https://github.com/fieryo/fieryo.github.io/issues">Post issues (or pull requests) on GitHub</a></li>
 				<br>
 				<li><img src="images/support.png" border="0" alt=""></li>
+				<li><a href="https://paypal.me/oidev">Buy me a beer using PayPal.me</a> or purchase the Mac App Store version (if available)</li>
 				</ul>
 				<br><p><b>How to use iPrintPage?</b></p>
 				<ul>
 				<li>You can <b>navigate Safari</b> to an HTML report that you want to print. <b>Start iPrintPage</b> (if it's already started, use the "Get (Cmd+R)" function). Safari's topmost page will appear in iPrintPage ready for printing (or file saving).</li>
-				<li>In Firefox, you can install the <a href="https://addons.mozilla.org/en-US/firefox/addon/dafizilla-viewsourcewith/" target="_blank">ViewSourceWith</a> add-on. This add-on allows you to open current Firefox page directly in iPrintPage.</li>
-				<li>Alternatively, in Safari or Firefox, you can navigate to an HTML report. Then copy some snippet or the whole web page (Cmd+A, Cmd+C). In iPrintPage use the "Paste (Cmd+V)" function.</li>
+				<li>iPrintPage v1.3 adds add-ons for Chrome and Firefox (including Waterfox) that opens current web page with iPrintPage app. The <a href="https://chrome.google.com/webstore/detail/iprintpage-extension/gcgjkboeenpgohojgagdplcgdaemdibf">extension for Chrome</a> will be installed automatically when you start iPrintPage. You need to enable it in Chrome when prompted. The Firefox add-on must be installed manually from <a href="https://addons.mozilla.org/en-US/firefox/addon/iprintpage-extension/">addons.mozilla.org</a> or drag and drop xpi extension from iPrintPage Resources folder to about:addons Firefox page.</li>
+				<li>For Firefox 50 or older (with deprecated XUL based add-ons), you can install the <a href="https://github.com/dafizilla/firefox-viewsourcewith" target="_blank">ViewSourceWith</a> add-on. This add-on allows you to open current Firefox page directly in iPrintPage. Or just use Waterfox Classic that supports both XUL and WebExtensions add-ons.</li>
+                                <li>Alternatively, in Safari or Firefox, you can navigate to a web page. Then copy some snippet or the whole web page (Cmd+A, Cmd+C). In iPrintPage use the "Paste (Cmd+V)" function.</li>
 				<li>You may edit the text or insert another snippet using Cmd+L Paste command. To select a vertical block of text (such as a column), hold the Option key then select the text.</li>
 				<li>Choose document and printer encodings as well as Characters Per Line (cpl) and End Lines options. iPrintPage will save these options for the next usage.</li>
 				<li>Finally, select a printer and use the <b>"Print (Cmd+P)"</b> function. You can turn off "Text mode" option if you want to print on Non-Dot Matrix Printers or export to PDF.</li>
-				<li>If you find iPrintPage useful, please contribute by sending an Amazon gift card to the contact email.</li>
+				<li>If you find iPrintPage useful, please <a href="https://paypal.me/oidev">buy me a beer using PayPal.me</a> or purchase the Mac App Store version (if available).</li>
 				</ul>
 				<br><p>Here is detailed explanation of all functions:</p>
 				<ul>
